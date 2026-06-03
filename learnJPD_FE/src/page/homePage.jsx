@@ -131,7 +131,7 @@ export default function JapaneseAIHomePage() {
   // =========================
   const handleStartLearning = () => {
     if (isLoggedIn) {
-      navigate("/dashboard"); // Chuyển đến dashboard nếu đã login
+      navigate("/home"); // Chuyển đến dashboard nếu đã login
     } else {
       navigate("/login"); // Chuyển đến login nếu chưa login
     }
